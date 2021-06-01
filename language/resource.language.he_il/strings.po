@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
@@ -196,14 +196,6 @@ msgctxt "#31048"
 msgid "Available"
 msgstr "זמין"
 
-msgctxt "#31050"
-msgid "Press [B]OK[/B] to stop"
-msgstr "לחץ על [B]אישור[/B] כדי לעצור"
-
-msgctxt "#31051"
-msgid "Toggle language"
-msgstr "החלף שפה"
-
 msgctxt "#31052"
 msgid "filtered"
 msgstr "מסונן"
@@ -211,10 +203,6 @@ msgstr "מסונן"
 msgctxt "#31053"
 msgid "Arial based"
 msgstr "מבוסס אריאל"
-
-msgctxt "#31054"
-msgid "Press [B]Left[/B] to rewind, or [B]Right[/B] to fast-forward"
-msgstr "לחצו על [B]שמאלה[/B] כדי להריץ אחורה, או [B]ימינה[/B] כדי להריץ קדימה"
 
 msgctxt "#31056"
 msgid "Go to playlist"
@@ -268,6 +256,10 @@ msgctxt "#31072"
 msgid "Power Options"
 msgstr "אפשרויות כיבוי"
 
+msgctxt "#31074"
+msgid "Total duration"
+msgstr "אורך כולל"
+
 msgctxt "#31075"
 msgid "Movie sets"
 msgstr "מארז סרטים"
@@ -278,7 +270,7 @@ msgstr "שידור אינו זמין"
 
 msgctxt "#31080"
 msgid "Ends at"
-msgstr "מסתיים ב-"
+msgstr "מסתיים ב"
 
 msgctxt "#31082"
 msgid "Lyrics add-on"
@@ -295,10 +287,6 @@ msgstr "הגדרות הדמיה"
 msgctxt "#31089"
 msgid "Available groups"
 msgstr "קבוצות זמינות"
-
-msgctxt "#31090"
-msgid "Search trailer"
-msgstr "חפש קדימון"
 
 msgctxt "#31092"
 msgid "Video menu"
@@ -380,10 +368,6 @@ msgctxt "#31114"
 msgid "Search YouTube"
 msgstr "חפש ביו-טיוב"
 
-msgctxt "#31115"
-msgid "Search TheMovieDB"
-msgstr "חיפוש ב-TheMovieDB"
-
 msgctxt "#31116"
 msgid "Remove this main menu item"
 msgstr "מחק את פריט התפריט הראשי הזה"
@@ -416,10 +400,6 @@ msgctxt "#31123"
 msgid "Same director"
 msgstr "אותו במאי"
 
-msgctxt "#31124"
-msgid "Show images on map"
-msgstr "הראה תמונות על מפה"
-
 msgctxt "#31125"
 msgid "Press up for actor info"
 msgstr "לחץ על למעלה לקבלת מידע על השחקן"
@@ -447,6 +427,14 @@ msgstr "הגדרות הקשורות לתפריט הראשי: הגדר את מס�
 msgctxt "#31131"
 msgid "Choose skin fanart pack"
 msgstr "בחר חבילת פאנארט למעטפת"
+
+msgctxt "#31132"
+msgid "Select Program"
+msgstr "בחר תוכנית"
+
+msgctxt "#31133"
+msgid "Select Resolution"
+msgstr "בחירת רזולוציה"
 
 msgctxt "#31134"
 msgid "Remaining"
@@ -500,10 +488,6 @@ msgctxt "#31149"
 msgid "Select genre fanart pack"
 msgstr "בחר חבילת סגנונות פאנארט"
 
-msgctxt "#31150"
-msgid "Repository"
-msgstr "מאגר (Repository)"
-
 msgctxt "#31151"
 msgid "Unwatched music videos"
 msgstr "סרטוני מוזיקה שטרם נצפו"
@@ -555,3 +539,19 @@ msgstr "שחק את המשחקים האישיים שלך או הורד אחד מ
 msgctxt "#31163"
 msgid "Show Fanart background"
 msgstr "הצג רקע פאנארט"
+
+msgctxt "#31164"
+msgid "Choose kind of profile identification"
+msgstr "לבחור סוג של זיהוי פרופיל"
+
+msgctxt "#31165"
+msgid "Profile name"
+msgstr "שם משתמש"
+
+msgctxt "#31166"
+msgid "Profile avatar"
+msgstr "דמות מייצגת לפרופיל"
+
+msgctxt "#31167"
+msgid "Animate background"
+msgstr "הנפשת הרקע"
