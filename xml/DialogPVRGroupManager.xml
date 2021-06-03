@@ -121,7 +121,7 @@
 					<onleft>9000</onleft>
 					<onright>73</onright>
 					<pagecontrol>73</pagecontrol>
-					<scrolltime>200</scrolltime>
+					<scrolltime>0</scrolltime>
 					<itemlayout width="320" height="70">
 						<control type="label">
 							<left>20</left>

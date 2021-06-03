@@ -42,7 +42,7 @@
 			<onright>60</onright>
 			<ondown>12</ondown>
 			<pagecontrol>60</pagecontrol>
-			<scrolltime>200</scrolltime>
+			<scrolltime>0</scrolltime>
 			<itemlayout height="70" width="820">
 				<control type="label">
 					<left>10</left>

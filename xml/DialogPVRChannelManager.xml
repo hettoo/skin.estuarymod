@@ -43,7 +43,7 @@
 					<onleft>9000</onleft>
 					<onright>60</onright>
 					<pagecontrol>60</pagecontrol>
-					<scrolltime>200</scrolltime>
+					<scrolltime>0</scrolltime>
 					<itemlayout height="70" width="630">
 						<control type="group">
 							<animation effect="fade" start="100" end="50" time="0" condition="!ListItem.Property(ActiveChannel)">Conditional</animation>

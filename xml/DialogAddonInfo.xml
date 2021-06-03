@@ -315,7 +315,7 @@
 					<width>500</width>
 					<height>500</height>
 					<aspectratio aligny="top">scale</aspectratio>
-					<fadetime>300</fadetime>
+					<fadetime>0</fadetime>
 					<texture fallback="DefaultAddon.png" background="true">$INFO[ListItem.Art(thumb)]</texture>
 				</control>
 				<control type="group">

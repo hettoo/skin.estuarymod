@@ -8,7 +8,7 @@
 			<depth>DepthBackground</depth>
 			<include>FullScreenDimensions</include>
 			<aspectratio>scale</aspectratio>
-			<fadetime>600</fadetime>
+			<fadetime>0</fadetime>
 			<animation effect="zoom" center="auto" end="102,102" time="0" condition="Integer.IsGreater(System.StereoscopicMode,0)">conditional</animation>
 			<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
@@ -41,7 +41,7 @@
 				<onright>9000</onright>
 				<onup>2</onup>
 				<ondown>2</ondown>
-				<scrolltime>200</scrolltime>
+				<scrolltime>0</scrolltime>
 				<itemlayout height="390" width="354">
 					<control type="image">
 						<top>5</top>
@@ -189,7 +189,7 @@
 				<onright>9100</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
-				<scrolltime>300</scrolltime>
+				<scrolltime>0</scrolltime>
 				<itemlayout height="85" width="470">
 					<control type="label">
 						<left>30</left>

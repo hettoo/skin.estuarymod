@@ -71,7 +71,7 @@
 				<onup>450</onup>
 				<ondown>450</ondown>
 				<pagecontrol>60</pagecontrol>
-				<scrolltime>200</scrolltime>
+				<scrolltime>0</scrolltime>
 				<itemlayout height="70" width="940">
 					<control type="image">
 						<left>10</left>
@@ -129,7 +129,7 @@
 				<onup>451</onup>
 				<ondown>451</ondown>
 				<pagecontrol>60</pagecontrol>
-				<scrolltime>200</scrolltime>
+				<scrolltime>0</scrolltime>
 				<itemlayout height="70" width="940">
 					<control type="image">
 						<left>10</left>

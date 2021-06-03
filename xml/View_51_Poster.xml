@@ -36,7 +36,7 @@
 					<focusposition>1</focusposition>
 					<movement>0</movement>
 					<pagecontrol>5199</pagecontrol>
-					<scrolltime tween="cubic" easing="out">500</scrolltime>
+					<scrolltime tween="cubic" easing="out">0</scrolltime>
 					<orientation>horizontal</orientation>
 					<onleft>51</onleft>
 					<onup>9000</onup>
@@ -139,7 +139,7 @@
 				<top>4</top>
 				<width>476</width>
 				<height>716</height>
-				<fadetime>200</fadetime>
+				<fadetime>0</fadetime>
 				<aspectratio>scale</aspectratio>
 				<texture fallback="DefaultMovies.png" background="true">$VAR[PosterThumbVar]</texture>
 			</control>

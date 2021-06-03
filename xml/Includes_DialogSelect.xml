@@ -29,7 +29,7 @@
 				<onleft>9001</onleft>
 				<onright>61</onright>
 				<pagecontrol>61</pagecontrol>
-				<scrolltime>200</scrolltime>
+				<scrolltime>0</scrolltime>
 				<include content="DefaultSimpleListLayout">
 					<param name="width" value="880" />
 					<param name="list_id" value="3" />
@@ -45,7 +45,7 @@
 				<onleft>9001</onleft>
 				<onright>61</onright>
 				<pagecontrol>61</pagecontrol>
-				<scrolltime>200</scrolltime>
+				<scrolltime>0</scrolltime>
 				<itemlayout height="125" width="880">
 					<control type="image">
 						<left>12</left>
@@ -174,7 +174,7 @@
 			</control>
 			<control type="panel" id="11">
 				<top>30</top>
-				<scrolltime tween="sine">200</scrolltime>
+				<scrolltime tween="sine">0</scrolltime>
 				<orientation>horizontal</orientation>
 				<itemlayout width="480" height="340">
 					<control type="group">
@@ -280,7 +280,7 @@
 			</control>
 			<control type="panel" id="11">
 				<top>30</top>
-				<scrolltime tween="sine">200</scrolltime>
+				<scrolltime tween="sine">0</scrolltime>
 				<orientation>horizontal</orientation>
 				<itemlayout width="480" height="340">
 					<control type="group">

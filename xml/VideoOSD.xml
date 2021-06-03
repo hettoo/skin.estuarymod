@@ -40,7 +40,7 @@
 					<width>100%</width>
 					<height>135</height>
 					<itemgap>10</itemgap>
-					<scrolltime tween="sine">200</scrolltime>
+					<scrolltime tween="sine">0</scrolltime>
 					<orientation>horizontal</orientation>
 					<onup>87</onup>
 					<ondown>noop</ondown>
@@ -122,7 +122,7 @@
 					<height>135</height>
 					<align>right</align>
 					<itemgap>10</itemgap>
-					<scrolltime tween="sine">200</scrolltime>
+					<scrolltime tween="sine">0</scrolltime>
 					<orientation>horizontal</orientation>
 					<onup>87</onup>
 					<ondown condition="Control.HasFocus(70043)">11104</ondown>

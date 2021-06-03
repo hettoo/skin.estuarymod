@@ -245,7 +245,7 @@
 						<left>0</left>
 						<width>60</width>
 						<height>40</height>
-						<fadetime>300</fadetime>
+						<fadetime>0</fadetime>
 						<aspectratio aligny="center" align="right">keep</aspectratio>
 						<texture>dialogs/volume/mute.png</texture>
 						<visible>Player.Muted</visible>

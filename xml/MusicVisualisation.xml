@@ -16,7 +16,7 @@
 			<animation effect="slide" start="-30,-30" end="30,30" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(animate_background_fanart)">Conditional</animation>
 			<control type="image">
 				<aspectratio>scale</aspectratio>
-				<fadetime>400</fadetime>
+				<fadetime>0</fadetime>
 				<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
 				<animation effect="fade" start="100" end="50" time="0" condition="Visualisation.Enabled">Conditional</animation>
@@ -25,7 +25,7 @@
 			</control>
 			<control type="image">
 				<aspectratio>scale</aspectratio>
-				<fadetime>400</fadetime>
+				<fadetime>0</fadetime>
 				<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
 				<animation effect="fade" start="100" end="50" time="0" condition="Visualisation.Enabled">Conditional</animation>
@@ -55,7 +55,7 @@
 				<visible>[Player.ShowInfo | Window.IsActive(musicosd)] + !MusicPlayer.Content(livetv)</visible>
 				<width>400</width>
 				<height>400</height>
-				<fadetime>400</fadetime>
+				<fadetime>0</fadetime>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture fallback="DefaultAlbumCover.png" border="2">$INFO[MusicPlayer.Cover]</texture>
 				<bordertexture colordiffuse="border_alpha">colors/black.png</bordertexture>

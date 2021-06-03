@@ -41,7 +41,7 @@
 						<height>135</height>
 						<align>center</align>
 						<itemgap>20</itemgap>
-						<scrolltime tween="sine">200</scrolltime>
+						<scrolltime tween="sine">0</scrolltime>
 						<orientation>horizontal</orientation>
 						<onleft>70045</onleft>
 						<onright>70040</onright>
@@ -108,7 +108,7 @@
 						<height>135</height>
 						<align>center</align>
 						<itemgap>20</itemgap>
-						<scrolltime tween="sine">200</scrolltime>
+						<scrolltime tween="sine">0</scrolltime>
 						<orientation>horizontal</orientation>
 						<onleft>605</onleft>
 						<onright>70043</onright>
@@ -149,7 +149,7 @@
 						<height>135</height>
 						<align>center</align>
 						<itemgap>20</itemgap>
-						<scrolltime tween="sine">200</scrolltime>
+						<scrolltime tween="sine">0</scrolltime>
 						<orientation>horizontal</orientation>
 						<onleft>70042</onleft>
 						<onright>600</onright>
