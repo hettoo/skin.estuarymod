@@ -95,10 +95,10 @@
 						<left>68</left>
 						<top>10</top>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="230,130" />
+							<effect type="zoom" start="100" end="110" time="0" tween="sine" easing="inout" center="230,130" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="230,130" />
+							<effect type="zoom" start="110" end="100" time="0" tween="sine" easing="inout" center="230,130" />
 						</animation>
 						<include content="InfoWallMovieLayout">
 							<param name="focused" value="true" />
@@ -225,10 +225,10 @@
 						<left>70</left>
 						<top>5</top>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="112" time="200" tween="sine" easing="inout" center="230,120" />
+							<effect type="zoom" start="100" end="112" time="0" tween="sine" easing="inout" center="230,120" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="112" end="100" time="200" tween="sine" easing="inout" center="230,120" />
+							<effect type="zoom" start="112" end="100" time="0" tween="sine" easing="inout" center="230,120" />
 						</animation>
 						<include content="InfoWallEpisodeLayout">
 							<param name="main_label" value="$PARAM[main_label]" />
@@ -286,10 +286,10 @@
 						<depth>DepthContentPopout</depth>
 						<left>70</left>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="112" time="200" tween="sine" easing="inout" center="240,120" />
+							<effect type="zoom" start="100" end="112" time="0" tween="sine" easing="inout" center="240,120" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="112" end="100" time="200" tween="sine" easing="inout" center="240,120" />
+							<effect type="zoom" start="112" end="100" time="0" tween="sine" easing="inout" center="240,120" />
 						</animation>
 						<include content="InfoWallMusicLayout">
 							<param name="main_label" value="$PARAM[main_label]" />
@@ -366,10 +366,10 @@
 						<depth>DepthContentPopout</depth>
 						<left>70</left>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="115" time="200" tween="sine" easing="inout" center="228,70" />
+							<effect type="zoom" start="100" end="115" time="0" tween="sine" easing="inout" center="228,70" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="115" end="100" time="200" tween="sine" easing="inout" center="228,70" />
+							<effect type="zoom" start="115" end="100" time="0" tween="sine" easing="inout" center="228,70" />
 						</animation>
 						<control type="image">
 							<width>316</width>
@@ -517,10 +517,10 @@
 						<depth>DepthContentPopout</depth>
 						<left>70</left>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="240,100" />
+							<effect type="zoom" start="100" end="110" time="0" tween="sine" easing="inout" center="240,100" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="240,100" />
+							<effect type="zoom" start="110" end="100" time="0" tween="sine" easing="inout" center="240,100" />
 						</animation>
 						<control type="image">
 							<width>319</width>
@@ -647,10 +647,10 @@
 						<left>70</left>
 						<depth>DepthContentPopout</depth>
 						<animation type="Focus">
-							<effect type="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="180,140" />
+							<effect type="zoom" start="100" end="110" time="0" tween="sine" easing="inout" center="180,140" />
 						</animation>
 						<animation type="Unfocus">
-							<effect type="zoom" start="110" end="100" time="200" tween="sine" easing="inout" center="180,140" />
+							<effect type="zoom" start="110" end="100" time="0" tween="sine" easing="inout" center="180,140" />
 						</animation>
 						<control type="image">
 							<left>0</left>
@@ -1004,7 +1004,7 @@
 					<height>100</height>
 					<aspectratio aligny="center">keep</aspectratio>
 					<texture>dialogs/extendedprogress/loading.png</texture>
-					<animation effect="rotate" center="auto" start="360" end="0" time="1500" loop="true" condition="true">Conditional</animation>
+					<animation effect="rotate" center="auto" start="360" end="0" time="0" loop="true" condition="true">Conditional</animation>
 				</control>
 			</control>
 		</definition>
@@ -1025,9 +1025,9 @@
 				<orientation>vertical</orientation>
 				<texturesliderbackground />
 				<hitrect x="0" y="0" w="60" h="100%" />
-				<animation effect="fade" start="0" end="100" time="200" delay="300">Visible</animation>
-				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
-				<animation effect="slide" end="6,0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus($PARAM[scrollbar_id])">conditional</animation>
+				<animation effect="fade" start="0" end="100" time="0" delay="300">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
+				<animation effect="slide" end="6,0" time="0" tween="sine" easing="inout" condition="!Control.HasFocus($PARAM[scrollbar_id])">conditional</animation>
 			</control>
 		</control>
 	</include>

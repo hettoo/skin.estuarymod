@@ -9,7 +9,7 @@
 			<height>1080</height>
 			<centerleft>50%</centerleft>
 			<width>1920</width>
-			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="Window.IsVisible(script-embuary-video.xml) | Window.IsVisible(script-embuary-person.xml) | Window.IsVisible(script-embuary-image.xml)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="0" tween="sine" condition="Window.IsVisible(script-embuary-video.xml) | Window.IsVisible(script-embuary-person.xml) | Window.IsVisible(script-embuary-image.xml)">Conditional</animation>
 			<control type="group">
 				<top>150</top>
 				<left>66</left>
@@ -656,10 +656,10 @@
 				<haspath>true</haspath>
 				<label>$VAR[VideoInfoBottomLabelVar]</label>
 				<visible>Control.HasFocus(6)</visible>
-				<animation effect="fade" start="0" end="100" time="300" delay="300">WindowOpen</animation>
-				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
-				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
-				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
+				<animation effect="fade" start="0" end="100" time="0" delay="300">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
+				<animation effect="fade" start="0" end="100" time="0">Visible</animation>
+				<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
 			</control>
 			<include content="InfoDialogTopBarInfo">
 				<param name="main_label" value="$VAR[VideoInfoMainLabelVar]" />
@@ -667,9 +667,9 @@
 			</include>
 		</control>
 		<control type="group">
-			<animation effect="fade" start="0" end="100" time="300" delay="300">WindowOpen</animation>
-			<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
-			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="Window.IsVisible(script-embuary-video.xml) | Window.IsVisible(script-embuary-person.xml) | Window.IsVisible(script-embuary-image.xml)">Conditional</animation>
+			<animation effect="fade" start="0" end="100" time="0" delay="300">WindowOpen</animation>
+			<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
+			<animation effect="fade" start="100" end="0" time="0" tween="sine" condition="Window.IsVisible(script-embuary-video.xml) | Window.IsVisible(script-embuary-person.xml) | Window.IsVisible(script-embuary-image.xml)">Conditional</animation>
 			<centerleft>50%</centerleft>
 			<width>1920</width>
 			<bottom>0</bottom>
@@ -677,7 +677,7 @@
 			<include>MediaFlags</include>
 			<control type="group">
 				<visible>Control.HasFocus(50) + !String.IsEqual(ListItem.DBType,set)</visible>
-				<animation effect="fade" time="200">VisibleChange</animation>
+				<animation effect="fade" time="0">VisibleChange</animation>
 				<top>10</top>
 				<left>0</left>
 				<control type="image">
@@ -697,7 +697,7 @@
 			</control>
 			<control type="group">
 				<visible>Control.HasFocus(138)</visible>
-				<animation effect="fade" time="200">VisibleChange</animation>
+				<animation effect="fade" time="0">VisibleChange</animation>
 				<top>10</top>
 				<left>0</left>
 				<control type="image">

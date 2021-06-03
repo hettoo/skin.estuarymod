@@ -262,7 +262,7 @@
 	</include>
 	<include name="PVRProgress">
 		<control type="group">
-			<animation effect="fade" time="400">VisibleChange</animation>
+			<animation effect="fade" time="0">VisibleChange</animation>
 			<visible>!Player.ChannelPreviewActive</visible>
 			<control type="group">
 				<visible>Player.SeekEnabled | VideoPlayer.HasEPG</visible>
@@ -335,7 +335,7 @@
 			</control>
 		</control>
 		<control type="group">
-			<animation effect="fade" time="400">VisibleChange</animation>
+			<animation effect="fade" time="0">VisibleChange</animation>
 			<visible>Player.ChannelPreviewActive</visible>
 			<control type="progress">
 				<left>0</left>

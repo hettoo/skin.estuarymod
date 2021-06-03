@@ -212,9 +212,9 @@
 				</control>
 				<control type="group" id="141000">
 					<control type="grouplist" id="14100">
-						<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-						<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
-						<animation effect="fade" time="300">VisibleChange</animation>
+						<animation effect="fade" start="0" end="100" time="0">WindowOpen</animation>
+						<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
+						<animation effect="fade" time="0">VisibleChange</animation>
 						<orientation>horizontal</orientation>
 						<itemgap>-17</itemgap>
 						<left>5</left>
@@ -265,7 +265,7 @@
 		<depth>DepthSideBlade</depth>
 		<left>-520</left>
 		<animation type="Conditional" condition="$EXP[sidebar_visible]" reversible="true">
-			<effect type="slide" start="0" end="520" time="400" tween="cubic" easing="out" />
+			<effect type="slide" start="0" end="520" time="0" tween="cubic" easing="out" />
 		</animation>
 		<control type="image">
 			<width>4000</width>
@@ -273,7 +273,7 @@
 			<aspectratio>scale</aspectratio>
 			<texture colordiffuse="80FFFFFF">colors/black.png</texture>
 			<visible>$EXP[sidebar_visible] + !System.HasActiveModalDialog</visible>
-			<animation effect="fade" time="200">VisibleChange</animation>
+			<animation effect="fade" time="0">VisibleChange</animation>
 		</control>
 		<control type="image">
 			<left>0</left>
@@ -304,9 +304,9 @@
         <param name="left">5</param>
 		<definition>
 			<control type="grouplist" id="14100">
-				<animation effect="fade" start="0" end="100" time="400">WindowOpen</animation>
-				<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
-				<animation effect="fade" time="300">VisibleChange</animation>
+				<animation effect="fade" start="0" end="100" time="0">WindowOpen</animation>
+				<animation effect="fade" start="100" end="0" time="0">WindowClose</animation>
+				<animation effect="fade" time="0">VisibleChange</animation>
 				<animation effect="slide" end="-10,0" time="0" condition ="Window.IsActive(MyPlaylist.xml)">Conditional</animation>
 				<orientation>horizontal</orientation>
 				<itemgap>-17</itemgap>

@@ -9,7 +9,7 @@
 	<controls>
 		<include>PVRChannelNumberInput</include>
 		<control type="group">
-			<animation effect="slide" start="0,200" end="0,0" time="300" tween="cubic" easing="out">VisibleChange</animation>
+			<animation effect="slide" start="0,200" end="0,0" time="0" tween="cubic" easing="out">VisibleChange</animation>
 			<visible>Player.ShowInfo | Window.IsActive(fullscreeninfo) | Player.ShowTime | Window.IsActive(videoosd) | Window.IsActive(musicosd) | Window.IsActive(playerprocessinfo) | !String.IsEmpty(PVR.ChannelNumberInput) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrchannelguide) | ![!String.IsEmpty(Player.SeekNumeric) | Player.Seeking | Player.DisplayAfterSeek | Player.Forwarding | Player.Rewinding | Player.Paused]</visible>
 			<visible>!Player.HasGame</visible>
 			<bottom>0</bottom>
@@ -22,7 +22,7 @@
 			</control>
 			<control type="group">
 				<visible>!Window.IsVisible(videoosd) + !Window.IsVisible(musicosd)</visible>
-				<animation effect="fade" time="200">VisibleChange</animation>
+				<animation effect="fade" time="0">VisibleChange</animation>
 				<control type="grouplist">
 					<visible>[PVR.IsRecordingPlayingChannel + !Player.ChannelPreviewActive] | PVR.IsPlayingActiveRecording</visible>
 					<left>20</left>
@@ -59,7 +59,7 @@
 					<orientation>horizontal</orientation>
 					<itemgap>10</itemgap>
 					<visible>[Player.ShowInfo | Window.IsActive(fullscreeninfo)] + !Player.ChannelPreviewActive + Window.IsActive(fullscreenvideo)</visible>
-					<animation effect="fade" start="0" end="100" time="200" delay="1000">Visible</animation>
+					<animation effect="fade" start="0" end="100" time="0" delay="1000">Visible</animation>
 					<include content="MediaFlag">
 					<param name="texture" value="$INFO[VideoPlayer.VideoCodec,flags/videocodec/,.png]" />
 					</include>
@@ -86,7 +86,7 @@
 					<orientation>horizontal</orientation>
 					<itemgap>10</itemgap>
 					<visible>Player.ShowInfo + !Player.ChannelPreviewActive + Window.IsActive(visualisation)</visible>
-					<animation effect="fade" start="0" end="100" time="200" delay="1000">Visible</animation>
+					<animation effect="fade" start="0" end="100" time="0" delay="1000">Visible</animation>
 					<include content="MediaFlag">
 						<param name="texture" value="flags/rds/rds.png" />
 						<param name="visible" value="RDS.HasRDS" />
@@ -263,9 +263,9 @@
 			<visible>!Window.IsVisible(playerprocessinfo)</visible>
 			<visible>[Player.ShowInfo | Window.IsActive(fullscreeninfo)] + VideoPlayer.Content(LiveTV)</visible>
 			<visible>Player.ShowInfo | Window.IsActive(fullscreeninfo) | !Player.Seeking | !Player.DisplayAfterSeek | !Player.Forwarding | !Player.Rewinding | !Player.Paused</visible>
-			<animation effect="fade" start="0" end="100" time="300" delay="250">Visible</animation>
-			<animation effect="fade" start="100" end="0" time="100">Hidden</animation>
-			<animation effect="slide" end="0,-20" time="150" condition="VideoPlayer.Content(LiveTV)">conditional</animation>
+			<animation effect="fade" start="0" end="100" time="0" delay="250">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
+			<animation effect="slide" end="0,-20" time="0" condition="VideoPlayer.Content(LiveTV)">conditional</animation>
 			<bottom>0</bottom>
 			<height>380</height>
 			<control type="label">
@@ -342,8 +342,8 @@
 			<visible>!Window.IsVisible(playerprocessinfo)</visible>
 			<visible>[Player.ShowInfo | Window.IsActive(fullscreeninfo)] + !VideoPlayer.Content(LiveTV) + Window.IsActive(fullscreenvideo)</visible>
 			<visible>Player.ShowInfo | Window.IsActive(fullscreeninfo) | !Player.Seeking | !Player.DisplayAfterSeek | !Player.Forwarding | !Player.Rewinding | !Player.Paused</visible>
-			<animation effect="fade" start="0" end="100" time="300" delay="250">Visible</animation>
-			<animation effect="fade" start="100" end="0" time="100">Hidden</animation>
+			<animation effect="fade" start="0" end="100" time="0" delay="250">Visible</animation>
+			<animation effect="fade" start="100" end="0" time="0">Hidden</animation>
 			<bottom>0</bottom>
 			<height>470</height>
 			<control type="image">

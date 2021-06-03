@@ -7,7 +7,7 @@
 	<controls>
 		<include>DefaultBackground</include>
 		<control type="group">
-			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="$EXP[infodialog_active]">Conditional</animation>
+			<animation effect="fade" start="100" end="0" time="0" tween="sine" condition="$EXP[infodialog_active]">Conditional</animation>
 			<control type="group">
 				<description>Guide Timeline</description>
 				<visible>Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(53)</visible>
@@ -46,7 +46,7 @@
 							<width>20</width>
 							<height>30</height>
 							<texture>icons/keyboard/arrowleft.png</texture>
-							<animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
+							<animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
 							<visible>Control.HasFocus(11) + Container(11).HasPrevious</visible>
 						</control>
 						<control type="image">
@@ -55,7 +55,7 @@
 							<width>20</width>
 							<height>30</height>
 							<texture>icons/keyboard/arrowright.png</texture>
-							<animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>
+							<animation effect="fade" start="0" end="100" time="0">VisibleChange</animation>
 							<visible>Control.HasFocus(11) + !String.IsEqual(Container(11).CurrentItem, Container(11).NumItems)</visible>
 						</control>
 					</control>

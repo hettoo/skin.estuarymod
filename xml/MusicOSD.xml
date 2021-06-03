@@ -22,12 +22,12 @@
 			<include>Animation_BottomSlide</include>
 			<visible>!Window.IsActive(osdaudiosettings) + !Window.IsActive(osdvideosettings) + !Window.IsActive(playerprocessinfo)</visible>
 			<animation type="Visible" reversible="false">
-				<effect type="fade" start="0" end="100" time="300"/>
-				<effect type="slide" start="0,200" end="0,0" time="300" tween="cubic" easing="out" />
+				<effect type="fade" start="0" end="100" time="0"/>
+				<effect type="slide" start="0,200" end="0,0" time="0" tween="cubic" easing="out" />
 			</animation>
 			<animation type="Hidden" reversible="false">
-				<effect type="fade" start="100" end="0" time="300"/>
-				<effect type="slide" start="0,0" end="0,200" time="300" tween="cubic" easing="out" />
+				<effect type="fade" start="100" end="0" time="0"/>
+				<effect type="slide" start="0,0" end="0,200" time="0" tween="cubic" easing="out" />
 			</animation>
 			<control type="grouplist" id="201">
 				<left>20</left>
@@ -79,7 +79,7 @@
 						<top>0</top>
 						<width>74</width>
 						<height>74</height>
-						<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="480" tween="back" condition="Control.HasFocus(602)">Conditional</animation>
+						<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="0" tween="back" condition="Control.HasFocus(602)">Conditional</animation>
 						<texture colordiffuse="white">$VAR[PlayerControlsPlayImageVar]</texture>
 					</control>
 				</control>
@@ -110,7 +110,7 @@
 					<textureradiooffnofocus>osd/fullscreen/buttons/record.png</textureradiooffnofocus>
 					<texturefocus colordiffuse="button_focus">osd/fullscreen/buttons/button-fo.png</texturefocus>
 					<width>76</width>
-					<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="480" tween="back">Focus</animation>
+					<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="0" tween="back">Focus</animation>
 					<height>76</height>
 					<radiowidth>74</radiowidth>
 					<radioheight>74</radioheight>
@@ -199,7 +199,7 @@
 						<top>0</top>
 						<width>74</width>
 						<height>74</height>
-						<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="480" tween="back" condition="Control.HasFocus(70053)">Conditional</animation>
+						<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="0" tween="back" condition="Control.HasFocus(70053)">Conditional</animation>
 						<texture colordiffuse="white">$VAR[PlayerControlsRepeatImageVar]</texture>
 					</control>
 				</control>
@@ -212,7 +212,7 @@
 					<textureradiooffdisabled colordiffuse="disabled">osd/fullscreen/buttons/random-off.png</textureradiooffdisabled>
 					<texturefocus colordiffuse="button_focus">osd/fullscreen/buttons/button-fo.png</texturefocus>
 					<width>76</width>
-					<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="480" tween="back">Focus</animation>
+					<animation center="38,38" effect="zoom" end="100" reversible="false" start="95" time="0" tween="back">Focus</animation>
 					<height>76</height>
 					<radiowidth>74</radiowidth>
 					<radioheight>74</radioheight>
@@ -242,7 +242,7 @@
 				</control>
 			</control>
 			<control type="label">
-				<animation effect="slide" end="0,-20" time="150" condition="MusicPlayer.Content(LiveTV)">conditional</animation>
+				<animation effect="slide" end="0,-20" time="0" condition="MusicPlayer.Content(LiveTV)">conditional</animation>
 				<right>20</right>
 				<top>-60</top>
 				<aligny>center</aligny>
@@ -257,18 +257,18 @@
 			<bottom>0</bottom>
 			<height>120</height>
 			<animation type="WindowOpen" condition="!Player.ShowInfo" reversible="False">
-				<effect type="fade" start="0" end="100" time="300"/>
-				<effect type="slide" start="0,200" end="0,0" time="300" tween="cubic" easing="out" />
+				<effect type="fade" start="0" end="100" time="0"/>
+				<effect type="slide" start="0,200" end="0,0" time="0" tween="cubic" easing="out" />
 			</animation>
 			<animation type="WindowClose" condition="!Player.ShowInfo" reversible="False">
-				<effect type="fade" start="100" end="0" time="300"/>
-				<effect type="slide" start="0,0" end="0,200" time="300" tween="cubic" easing="out" />
+				<effect type="fade" start="100" end="0" time="0"/>
+				<effect type="slide" start="0,0" end="0,200" time="0" tween="cubic" easing="out" />
 			</animation>
 			<animation type="WindowOpen" condition="Player.ShowInfo" reversible="False">
-				<effect type="fade" start="0" end="100" time="300"/>
+				<effect type="fade" start="0" end="100" time="0"/>
 			</animation>
 			<animation type="WindowClose" condition="Player.ShowInfo" reversible="False">
-				<effect type="fade" start="100" end="0" time="300"/>
+				<effect type="fade" start="100" end="0" time="0"/>
 			</animation>
 			<control type="button" id="87">
 				<include>HiddenObject</include>

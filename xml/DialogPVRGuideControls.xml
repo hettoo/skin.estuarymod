@@ -17,7 +17,7 @@
 		<control type="group">
 			<bottom>0</bottom>
 			<height>150</height>
-			<animation effect="fade" time="200">VisibleChange</animation>
+			<animation effect="fade" time="0">VisibleChange</animation>
 			<control type="group" id="200">
 				<control type="image">
 					<left>0</left>
