@@ -258,7 +258,7 @@
 		<value condition="Control.HasFocus(70045)">$LOCALIZE[19321]</value>
 	</variable>
 	<variable name="OSDHelpTextVar">
-		<value condition="Control.HasFocus(87) + !Player.Paused">$LOCALIZE[31054]</value>
+		<value condition="Control.HasFocus(87)">$LOCALIZE[31054]</value>
 		<value condition="Control.HasFocus(608)+ PVR.IsRecordingPlayingChannel">$LOCALIZE[19059]</value>
 		<value condition="Control.HasFocus(608)">$LOCALIZE[264]</value>
 		<value condition="Control.HasFocus(70040)">$LOCALIZE[19019]</value>
