@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
-    <onload condition="Player.PauseEnabled + Player.Paused">PlayerControl(Play)</onload>
     <onunload condition="Player.PauseEnabled + !Player.Paused">PlayerControl(Play)</onunload>
 	<defaultcontrol></defaultcontrol>
 	<controls>
